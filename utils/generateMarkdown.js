@@ -8,11 +8,19 @@ function renderLicenseBadge(license) {
     BSD: '[![license](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)',
   }
   return badges[license]
-}
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  const licenseLinks = {
+  MIT: '[MIT](https://choosealicense.com/licenses/mit/)',
+  APACHE: '[APACHE](https://choosealicense.com/licenses/apache-2.0/)',
+  GnuGplV3: '[GnuGplV3](https://choosealicense.com/licenses/gpl-3.0/)',
+  BSD: '[BSD](https://choosealicense.com/licenses/bsd-3-clause-clear/)',
+  }
+  return licenseLinks[license]
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -21,7 +29,7 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title} ${this.renderLicenseBadge(data.license)}
+  # ${data.title} ${renderLicenseBadge(data.license)}
 
 
   ## Table of Contents
@@ -49,7 +57,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## License
-  ${data.license}
+  ${renderLicenseLink(data.license)}
 
   ## Questions?
   ${data.github}

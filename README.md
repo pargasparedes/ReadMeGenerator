@@ -1,35 +1,27 @@
+# README File Generator
 
-  # Test Title [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+## Table of Contents
+- [Project Description](#project-description)
+- [Installation Instructions](#installation-instructions)
+- [Usage Information](#usage-information)
+- [Questions?](#questions)
 
-  ## Table of Contents
-  - [Project Description](#project-description)
-  - [Installation Instructions](#installation-instructions)
-  - [Usage Information](#usage-information)
-  - [Contribution Guidelines](#contribution-guidelines)
-  - [Test Instructions](#test-instructions)
-  - [License](#license)
-  - [Questions?](#questions)
+## Project Description
+This project was created to generate README files from user's input.
 
-  ## Project Description
-  Test Description
+## Installation Instructions
+Open the command line, type "node index.js", press enter.
 
-  ## Installation Instructions
-  Test Installation
+## Usage Information
+You will be presented with a series of prompts that will ask you questions about your project to populate the README file and generate it for you.
 
-  ## Usage Information
-  Test Usage
-  
-  ## Contribution Guidelines
-  Test Contribution
+## Questions?
+Here is my GitHub Profile: [pargasparedes](https://github.com/pargasparedes)
+If you have any more questions, please contact me on my email: test@email.com
 
-  ## Test Instructions
-  Test Tests
+## Screenshots
 
-  ## License
-  License under the [GnuGplV3](https://choosealicense.com/licenses/gpl-3.0/) license
-
-  ## Questions?
-  Here is my GitHub Profile: [pargasparedes](https://github.com/pargasparedes)
-  If you have any more questions, please contact me on my email: test@email.com
-
+![screenshot](./images/screenshot1)
+![screenshot](./images/screenshot2)
+![screenshot](./images/screenshot3)
